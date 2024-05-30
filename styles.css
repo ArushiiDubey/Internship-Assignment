@@ -40,7 +40,6 @@ header {
 nav ul {
     list-style: none;
     float: right;
-    
 }
 
 nav ul li {
@@ -51,12 +50,8 @@ nav ul li {
 nav ul li a {
     color: #FFD700;
     text-decoration: none;
-    
-    
-    text-align: center;
-  padding: 14px 16px;
- 
 }
+
 
 #hero {
     background: #1a1a1a;
