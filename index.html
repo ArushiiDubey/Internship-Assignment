@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Certs Event Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="./assets/logo.png" alt="AI Certs Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#speakers">Speakers</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="hero">
+        <div class="container">
+            <h1>Awareness: Ethical Hacking</h1>
+            <img src="./assets/home.jpg" alt="lock against cyber crimes">
+            <p>The Al+ Ethical Hacker certification delves into the intersection of cybersecurity and artificial intelligence, a pivotal juncture in our era of rapid technological progress. Tailored for budding ethical hackers and cybersecurity experts, it offers comprehensive insights into Al's transformative impact on digital offense and defense strategies. Unlike conventional ethical hacking courses, this program harnesses Al's power to enhance cybersecurity approaches. It caters to tech enthusiasts eager to master the fusion of cutting-edge Al methods with ethical hacking practices amidst the swiftly evolving digital landscape. The curriculum encompasses four key areas, from course objectives and prerequisites to anticipated job roles and the latest Al technologies in Ethical Hacking.</p>
+            <p>Date: June 15, 2024</p>
+            <button id="register-btn">Register Now</button>
+        </div>
+    </section>
+
+    <section id="countdown">
+        <div class="container">
+            <h2>Countdown to the Event</h2>
+            <div id="timer"></div>
+        </div>
+    </section>
+    
+ 
+
+    <section id="about">
+        <div class="container">
+            <h2>About the Event</h2>
+            <img src="./assets/about.png" alt="ethical hacking">
+           
+            <p>Learn from the best: Our guest speakers are renowned cybersecurity experts with extensive experience in the field of ethical hacking.
+                Network with like-minded individuals: Our event provides a platform for professionals, students, and enthusiasts to network and learn from each other.
+                Stay ahead of the threats: Our event will cover the latest trends and threats in the industry, and provide practical tips and advice on how to improve your organization's security posture.
+                Interactive sessions: Our event will feature interactive sessions, including workshops and panel discussions, to provide a hands-on learning experience.</p>
+        </div>
+    </section>
+
+    <section id="schedule">
+        <div class="container">
+            <h2>Schedule</h2>
+            <div class="schedule-item">
+                <h3>Opening Keynote by Meera Patel</h3>
+                <p>10:00 AM - 11:00 AM</p>
+                <h3>Panel Discussion: "The Future of Cybersecurity"</h3>
+                <p>11:00 AM - 11:30 AM</p>
+                
+                     Moderated by Mark Denson <br>
+                     Panelists: Meera Patel, Mark Denson, and other industry experts <br>
+                     The panel will discuss the future of cybersecurity, including emerging trends, threats, and opportunities <br>
+                     Audience Q&A session <br>
+                
+                <h3> Break and Networking</h3>
+                <p>11:30 AM - 11:50 AM</p>
+                <h3> Closing Remarks and Giveaways</h3>
+                <p>11:50 AM - 12:15 PM</p>
+            </div>
+            <!-- Add more schedule items here -->
+        </div>
+    </section>
+
+    <section id="speakers">
+        <div class="container">
+            <h2>Speakers</h2>
+            <div class="speakers-list">
+                <button class="speaker-btn" data-bio="bio1">Mark Denson</button>
+                <button class="speaker-btn" data-bio="bio2">Meera Patel</button>
+                <button class="speaker-btn" data-bio="bio3">Speaker 3</button>
+                <!-- Add more speaker buttons here -->
+            </div>
+            <div class="speakers-bios">
+                <div id="bio1" class="bio" style="display: none;">
+                    <h3>Speaker 1 Bio</h3>
+                    <img src="./assets/speaker1.jpg" alt="Speaker 1">
+                    <p>Mark Denson is a highly respected cybersecurity expert with a strong background in ethical hacking, incident response, and security architecture. He has worked with top organizations to develop and implement robust security strategies and has helped numerous companies respond to and contain security breaches. Mark is also a certified instructor for various cybersecurity certifications and has trained hundreds of professionals in ethical hacking and security best practices.</p>
+                </div>
+                <div id="bio2" class="bio" style="display: none;">
+                    <h3>bio</h3>
+                    <img src="./assets/speaker2.jpg" alt="Speaker 2">
+                    <p>Meera Patel is a seasoned cybersecurity expert with over 10 years of experience in penetration testing, vulnerability assessment, and security consulting. She has worked with various government agencies, financial institutions, and Fortune 500 companies to improve their security posture. Meera is also a frequent speaker at top cybersecurity conferences and has published several papers on ethical hacking and security research.</p>
+                </div>
+                <div id="bio3" class="bio" style="display: none;">
+                    <h3>Speaker 3 Bio</h3>
+                    <img src="speaker3.jpg" alt="Speaker 3">
+                    <p>Details about Speaker 3...</p>
+                </div>
+                <!-- Add more bios here -->
+            </div>
+        </div>
+    </section>
+<section id="contact">
+   
+        <div class="container">
+            <h3>Contact Us</h3>
+            <p>Contact us at info@aicerts.com</p>
+            <div class="social-media">
+                <p>Visit the main site at : <a href="https://www.figma.com/proto/fxW1FFPDu1HFjyZ7tLDjfp/AI-CERT-Website?node-id=4018-5371&t=yCNy9eS4mInUreQv-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=312%3A400">AI CERTS</a></p>
+                
+            </div>
+        </div>
+   
+</section>
+
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Register for AI Certs Event</h2>
+            <form id="register-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="id">User ID</label>
+                <input type="text" id="id" name="id" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
